@@ -68,11 +68,29 @@ a{
 #coupon{
     height: 200px;
     width: 400px;
-    background-color: gray;
+    /*background-color: gray;*/
     z-index: 100;
     margin: auto;
     visibility: hidden; 
-     
+    position: absolute;    
+}
+
+#coupon >img{
+    width: 105%;
+    height: 300px;
+    margin-top: -19%;
+    margin-left:-3%;
+    
+}
+
+
+.bottom-left {
+    position: absolute;
+    bottom: 25%;
+    margin-left: 20%;
+    color: #2671f0;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 17px;   
 }
 #search{
     height: 455px;
